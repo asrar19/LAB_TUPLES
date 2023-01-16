@@ -24,7 +24,8 @@ converte_list = [4,5,6]
 print(convert(converte_list))
 
 #Q9 Use tuple unpacking to save the values of the above tuple into variables.  
-unpacked_tuple1, unpacked_tuple2, unpacked_tuple3  = converte_list
+list1= (4,5,6)
+unpacked_tuple1, unpacked_tuple2, unpacked_tuple3  = list1
 print(unpacked_tuple1, unpacked_tuple2, unpacked_tuple3)
 
 
