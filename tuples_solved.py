@@ -23,6 +23,12 @@ def convert(converte_list):
 converte_list = [4,5,6]
 print(convert(converte_list))
 
+'''
+or 
+newTuple = tuple([4,5,6])
+
+'''
+
 #Q9 Use tuple unpacking to save the values of the above tuple into variables.  
 list1= (4,5,6)
 unpacked_tuple1, unpacked_tuple2, unpacked_tuple3  = list1
@@ -42,5 +48,6 @@ print(count)
 
 #Q12 Use the enumerate() function to iterate over the result tuple, along with its index, and print out each item and its index.
 enumerated_list = enumerate(results)
-print(list(enumerated_list))
+for index,value in enumerated_list:
+    print(index,value)
 
