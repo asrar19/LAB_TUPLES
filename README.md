@@ -11,3 +11,7 @@
 - Use the in keyword to check if the integer 4 is in the result tuple.
 - Use the tuple() function to convert a list of integers [4, 5, 6] into a tuple.
 - Use tuple unpacking to save the values of the above tuple into variables. 
+
+Use the index() method to find the index of the string "b" in the letters tuple. 
+- Use the count() method to find the number of occurrences of the integer 2 in the result tuple.
+- Use the enumerate() function to iterate over the result tuple, along with its index, and print out each item and its index.

@@ -24,6 +24,22 @@ converte_list = [4,5,6]
 print(convert(converte_list))
 
 #Q9 Use tuple unpacking to save the values of the above tuple into variables.  
-unpacked_tuples  = converte_list
+unpacked_tuple1, unpacked_tuple2, unpacked_tuple3  = converte_list
+print(unpacked_tuple1, unpacked_tuple2, unpacked_tuple3)
 
-print(unpacked_tuples)
+
+#Q10 Use the index() method to find the index of the string "b" in the letters tuple. 
+val = (letters)  
+print(val)  
+index = val.index('b') 
+print("Index of b is: ",index)  
+
+
+#Q11 Use the count() method to find the number of occurrences of the integer 2 in the result tuple.
+count = results.count('2')
+print(count) 
+
+#Q12 Use the enumerate() function to iterate over the result tuple, along with its index, and print out each item and its index.
+enumerated_list = enumerate(results)
+print(list(enumerated_list))
+
